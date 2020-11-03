@@ -1,5 +1,3 @@
-const { uuid } = require("uuidv4");
-
 class User {
   constructor(name, email, password, image, book) {
     this.name = name;
@@ -7,7 +5,6 @@ class User {
     this.password = password;
     this.image = image;
     this.book = book;
-    this.id = uuid();
   }
 
   static from(json) {
