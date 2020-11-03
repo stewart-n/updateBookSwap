@@ -1,0 +1,23 @@
+{
+  "name": "bookshare1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.6.1",
+    "mongodb": "^3.6.2",
+    "morgan": "~1.9.1",
+    "uuidv4": "^6.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}
